@@ -1,0 +1,23 @@
+%YAML:1.0
+# data
+# the tum dataset directory, change it to yours!
+dataset_dir: /media/denghanjun/KINGSTON/data_odometry_gray/00
+
+# camera intrinsics
+#camera.fx: 517.3
+#camera.fy: 516.5
+#camera.cx: 325.1
+#camera.cy: 249.7
+
+
+camera_fx: 259.708
+camera_fy: 259.708
+camera_cx: 327.486
+camera_cy: 207.578
+camera_baseline: 120.0
+
+num_features: 150
+num_features_init: 50
+num_features_tracking: 80
+num_features_tracking_bad: 20
+num_features_needed_for_keyframe: 90

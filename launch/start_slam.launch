@@ -1,0 +1,5 @@
+<launch>
+    <node name="image_listener" pkg = "slam" type = "image_listener" output="screen">
+    </node>
+    <node pkg="rosbag" type = "play" name="playe" output="screen" args="--clock /media/denghanjun/KINGSTON/indeminde_2021-11-19-11-31-52.bag"/>
+</launch>
